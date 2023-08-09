@@ -1,0 +1,22 @@
+.container {
+    display: table;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .container > * {
+    display: table-row;
+  }
+  
+  .container > * > * {
+    display: table-cell;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .container > * > *:first-child {
+    font-weight: bold;
+    background-color: #f5f5f5;
+  }

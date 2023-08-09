@@ -1,0 +1,9 @@
+{
+  "domain": "",
+  "clientId": "",
+  "scope": "openid",
+  "useRefreshTokens": true,
+  " cacheLocation": "localstorage",
+  " useRefreshTokens": true,
+  "  cacheLocation": "localstorage"
+}
